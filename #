@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <style>
+            .top-Side {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 70px;
+                background-color: rgb(25,25,45);
+            }
+            
+            .H1-TitleA h1 {
+                position:fixed;
+                top: -15px;
+                left: 10px;
+                padding: 10px;
+                background-color: rgb(25,25,100);
+                border: none;
+                border-radius: 10px;
+                color: white;
+            }
+            
+            .Search-Input {
+                justify-content: center;
+                display:flex;
+            }
+            
+            .Search-Input input {
+                background-color: rgb(25,25,45);
+                position: fixed;
+                color: white;
+                text-align: center;
+                border: 1px solid #22bb22;
+                border-radius: 10px;
+                padding: 5px;
+                top: 15px;
+                width: 400px;
+                padding-right: 50px;
+                padding-left: 50px;
+                outline: none;
+            }
+            .Search-I button {
+                position: fixed;
+                top: 18px;
+                left: 905px;
+                background-color: rgb(25,25,45);
+                border:none;
+            }
+            
+            .Search-I i {
+                color: #22bb22;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top-Side">
+            <div class="H1-TitleA"><a href="#"><h1>My Website</h1></a></div>
+            <form action="">
+            <div class="Search-Input"><input type="text" placeholder="Search My Website"></div>
+            <div class="Search-I"><button><i class="fa fa-search fa-2xl"></i></button></div>
+            </form>
+        </div>
+    </body>
+</html>
